@@ -1,260 +1,845 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+
+    var btn = document.getElementById('contact-submit-btn');
+    
+    btn.addEventListener('click', function(ev){
+      var notrobot = document.querySelector('input[name="notrobot"]').checked;
+
+      if (!notrobot) {
+        document.getElementById('notrobot-error').style.display = 'block';
+        ev.preventDefault();
+      }
+      else {
+        document.getElementById('notrobot-error').style.display = 'none';
+        return true;
+      }
+    });
+  });
+</script>
 <!DOCTYPE html>
-<html lang="eng">
-
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🔥Condo🔥</title>
-    <!-- Favicon -->
-    <link rel="icon" href="ressources/static.ico" type="image/x-icon">
-    <!-- Polices de caractères -->
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+            <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- SEO SEOMeta -->
+    <title>Agence immobilière Vence | Stéphane Plaza Immobilier</title>
+<meta name="description" content=" Vence - Tous nos biens &agrave; vendre et &agrave; louer avec notre agence St&eacute;phane Plaza Immobilier &agrave;  Vence">
+<link rel="canonical" href="https://www.stephaneplazaimmobilier.com/agences-immobilieres/256628"/>
+<link rel="alternate" hreflang="en" href="https://www.stephaneplazaimmobilier.com/en/real-estate-agencies/256628/stephane-plaza-immobilier-vence"/>
+    <!-- SEO OpenGraph -->
+    <meta property="og:url" content="https://www.stephaneplazaimmobilier.com/agences-immobilieres/256628/stephane-plaza-immobilier-vence" />
+<meta property="og:title" content="Agence immobilière Vence | Stéphane Plaza Immobilier" />
+<meta property="og:type" content="company" />
+<meta property="og:image" content="https://www.stephaneplazaimmobilier.com/images/logo_picto.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="200" />
+<meta property="og:description" content=" Vence - Tous nos biens &agrave; vendre et &agrave; louer avec notre agence St&eacute;phane Plaza Immobilier &agrave;  Vence" />
+<meta property="og:site_name" content="Stéphane Plaza Immobilier" />
 
-    <!-- Font-Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-        crossorigin="anonymous">
+    <!-- SEO Twitter -->
+    
 
-    <!-- Feuilles de style -->
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/baseMedias.css">
-    <link rel="stylesheet" media="only screen and (width: 320px) and (height: 480px)" href="CSS/iphone4.css">
-    <link rel="stylesheet" media="only screen and (width: 768px) and (height: 1024px)" href="CSS/iPad_Mini.css">
-    <link rel="stylesheet" media="only screen and (width: 360px) and (height: 640px)" href="CSS/galaxy_S5.css">
-    <link rel="stylesheet" media="only screen and (width: 411px) and (height: 731px)" href="CSS/pixel2.css">
-    <link rel="stylesheet" media="only screen and (width: 320px) and (height: 568px)" href="CSS/iPhone5_SE.css">
-    <link rel="stylesheet" media="only screen and (width: 375px) and (height: 667px)" href="CSS/iPhone6_7_8.css">
-    <link rel="stylesheet" media="only screen and (width: 414px) and (height: 736px)" href="CSS/iPhone6_7_8PLUS.css">
-    <link rel="stylesheet" media="only screen and (width: 1024px) and (height: 1366px)" href="CSS/iPadPro.css">
+    
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="85HZe47Gp8wlqApuJ5QvEPC2jccol83kd9ABdJU3">
 
-    <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <!-- GreenSock -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <meta name="is-subdomain" content="0">
 
+        <meta name="agency-name" content="Stéphane Plaza Immobilier Vence">
+    
+    
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,800&display=swap">
+    
+    <link rel="stylesheet" href="/css/app.css?id=2fcc8921cfb2e73098d3" type="text/css">
+    <link rel="preload" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"></noscript>
+
+    <!-- Scripts -->
+    
+        <script type="text/javascript" src="/tarteaucitron/tarteaucitron.js"></script>
+    <script type="text/javascript">
+      var _mtm = _mtm || [];
+      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.rel='preconnect'; g.src='https://stat.spftech.net/js/container_MvECgFmu.js'; s.parentNode.insertBefore(g,s);
+    </script>
+    
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBruVaMi5WYqWFIO90vSunki3tbWHy0wAU&libraries=places"></script>
+    
+          <!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stat.spftech.net/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+          </head>
 <body>
+  <div id="app">
+      <div id="wrapper">
+          <div>
+              
+              
+                              <div id="mobile-menu" class="mobile-menu">
+  <div class="menu">
+    <ul>
+        <li class="">
+            <a href="/">
+                <img src="/images/Accueil.svg" alt="">
+                <span>Accueil</span>
+            </a>
+        </li>
+        <li class="">
+            <a href="/immobilier-acheter">
+                <img src="/images/acheter.svg" alt="">
+                <span>Acheter</span>
+            </a>
+        </li>
+        <li class="">
+            <a href="/estimer-son-bien">
+                <img src="/images/vendre.svg" alt="">
+                <span>Vendre</span>
+            </a>
+        </li>
 
-    <!-- Accueil -->
+                    <li class="">
+                <a href="/gerer-sa-location">
+                    <img src="/images/gerance.svg" alt="">
+                    <span>Gérance</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infos.stephaneplazaimmobilier.com">
+                    <img src="/images/conseils.svg" alt="">
+                    <span>Conseils de Stéphane</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="https://recrutement.stephaneplazaimmobilier.com/">
+                    <img src="/images/rejoignez.svg" alt="">
+                    <span>Rejoignez-nous</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/agences-immobilieres">
+                    <img src="/images/nosagences.svg" alt="">
+                    <span>Nos agences</span>
+                </a>
+            </li>
+            </ul>
+</div>
+  <div class="social-links">
+    <span>Suivez-nous sur</span>
+    <ul>
+                    <li>
+                <a href="https://www.facebook.com/stephaneplazaimmobiliercagnes/" target="_blank">
+                    <img src="/images/social/fb.svg">
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img src="/images/social/twitter.svg">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/st%C3%A9phane-plaza-immobilier" target="_blank">
+                    <img src="/images/social/linked.svg">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCMxUIO9YHBixRWMePEAE9Xw" target="_blank">
+                    <img src="/images/social/youtube.svg">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/stephaneplazaimmobiliercagnes" target="_blank">
+                    <img src="/images/social/instagram.svg">
+                </a>
+            </li>
+            </ul>
+</div>
+<div class="spots-tv">
+    <span>Nos vidéos</span>
+    <a href="https://infos.stephaneplazaimmobilier.com/nos-medias"><img src="/images/tv.svg"></a>
+</div>
+</div>
+<header class="site-head">
 
-    <header id="accueil">
-
-        <nav id="navigation">
-
-            <a href="#accueil" class="liensNav" onclick="toggleNav()">Home</a>
-            <a href="#valeurs" class="liensNav" onclick="toggleNav()">Our Values</a>
-            <a href="#tarifs" class="liensNav" onclick="toggleNav()">Our Price</a>
-            <a href="#contact" class="liensNav" onclick="toggleNav()">Contact</a>
-            <a class="icon" id="icon" onclick="toggleNav()"><i class="fas fa-bars"></i></a>
-        </nav>
-
-
-        <h1>🔥Condo🔥</h1>
-        <h2>discord.gg/firecondo</h2>
-
-        <a href="#section-about" id="arrow"><i class="fas fa-cut"></i></a>
-
-
-    </header>
-
-    <!-- Section About -->
-
-    <section id="section-about" class="section-about">
-
-        <div class="centerH">
-
-            <h2 class="titreAbout">
-                Discover Our Values.
-            </h2>
+    <div class="header-top">
+        <div class="container">
+            <div id="mobile-menu-icon" class="mobile-menu-icon mobile-blk"><span class="v1"></span><span class="v1"></span><span class="v1"></span></div>
+            <a href="/" class="logo">
+                <img src="/images/logo.svg" class="desktop-blk">
+                <img src="/images/acheter-logo.svg" class="mobile-blk">
+            </a>
+            <div class="user mobile-blk">
+                <app-auth username=""></app-auth>
+            </div>
+                        <div class="social-block desktop-blk">
+                <div class="social-links">
+    <span>Suivez-nous sur</span>
+    <ul>
+                    <li>
+                <a href="https://www.facebook.com/stephaneplazaimmobiliercagnes/" target="_blank">
+                    <img src="/images/social/fb.svg">
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img src="/images/social/twitter.svg">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/st%C3%A9phane-plaza-immobilier" target="_blank">
+                    <img src="/images/social/linked.svg">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCMxUIO9YHBixRWMePEAE9Xw" target="_blank">
+                    <img src="/images/social/youtube.svg">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/stephaneplazaimmobiliercagnes" target="_blank">
+                    <img src="/images/social/instagram.svg">
+                </a>
+            </li>
+            </ul>
+</div>
+<div class="spots-tv">
+    <span>Nos vidéos</span>
+    <a href="https://infos.stephaneplazaimmobilier.com/nos-medias"><img src="/images/tv.svg"></a>
+</div>
+            </div>
         </div>
+    </div>
+    <nav class="menu-wrap desktop-blk">
+    <div class="menu" id="navbarSupportedContent">
+        <div class="menu">
+    <ul>
+        <li class="">
+            <a href="/">
+                <img src="/images/Accueil.svg" alt="">
+                <span>Accueil</span>
+            </a>
+        </li>
+        <li class="">
+            <a href="/immobilier-acheter">
+                <img src="/images/acheter.svg" alt="">
+                <span>Acheter</span>
+            </a>
+        </li>
+        <li class="">
+            <a href="/estimer-son-bien">
+                <img src="/images/vendre.svg" alt="">
+                <span>Vendre</span>
+            </a>
+        </li>
 
+                    <li class="">
+                <a href="/gerer-sa-location">
+                    <img src="/images/gerance.svg" alt="">
+                    <span>Gérance</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infos.stephaneplazaimmobilier.com">
+                    <img src="/images/conseils.svg" alt="">
+                    <span>Conseils de Stéphane</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="https://recrutement.stephaneplazaimmobilier.com/">
+                    <img src="/images/rejoignez.svg" alt="">
+                    <span>Rejoignez-nous</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/agences-immobilieres">
+                    <img src="/images/nosagences.svg" alt="">
+                    <span>Nos agences</span>
+                </a>
+            </li>
+            </ul>
+</div>
+        <app-auth username=""  agency-id="256628" ></app-auth>
+    </div>
+</nav>
+</header>
+                            <div class="wrapper">
+                    <section class="breadcrumbs headblk desktop-blk">
+  <div class="container">
+    <ul>
+                                          <li><a href="https://www.stephaneplazaimmobilier.com"><img src="/images/pink-accueil.svg"></a></li>
+                                                                              <li><a href="https://www.stephaneplazaimmobilier.com/agences-immobilieres">Nos agences</a></li>
+                                                            <li>Stéphane Plaza Immobilier Vence</li>
+                  </ul>
+  </div>
+</section>
+<section class="body_section mobile-white">
+    <div class="container no-pad-mobile">
+        <div class="body_section_wrap agency-detail-wrap">
+          <div class="agency-detail">
+            <div class="agency-info row column">
+              <div>
+                <div class="agency-info-left desktop-blk">
+                                      <clazy-load src="https://transaction.stephaneplazaimmobilier.com/segments/immo/catalog/images/manufacturers/256628.jpg">
+                      <img src="https://transaction.stephaneplazaimmobilier.com/segments/immo/catalog/images/manufacturers/256628.jpg">
+                      <div class="c-red align-center" slot="placeholder">
+                        <span><i class="el-icon-loading"></i></span>
+                      </div>
+                    </clazy-load>
+                                    <a href="#fees" class="button grey">Voir les horaires de l&#039;agence</a>
+                  <a href="#agency-legal-notice" class="button grey">Informations légales</a>
+                </div>
+                <div class="agency-info-content match">
+                  <h1 class="underlined">Stéphane Plaza Immobilier Vence</h1>
+                                      <p class="description line-clamp" id="agency-description">Nos 2 agences Stéphane Plaza immobilier Vence &amp; Cagnes sur Mer sont spécialisées dans la transaction immobilière sur les secteurs de Vence, Saint Paul, St Jeannet, La Gaude, Gattières, Carros, Cagnes sur Mer et Saint Laurent du Var.
+Toute l’équipe passionnée vous accueille du Lundi au vendredi de 9h à 18H30 et le samedi de 9h à 13H00.
+L&#039;immobilier, ce n&#039;est pas uniquement des surfaces en m2 et des prix net vendeur, c&#039;est surtout vous : des gens uniques et des projets de vie qui le sont aussi. Bref, autant de nouveaux défis à relever ensemble, une bonne dose de créativité et une aventure humaine passionnante !
+Ces projets de vie, pour qu’ils puissent se vivre dans la bonne humeur doivent être accompagnés et conseillés. Voila notre vision du métier.
+Une offre de prestations unique et personnalisée (home staging réalisé dans les biens, conseils d’agencement pour mieux vendre, photos/vidéos de qualité professionnelles, suivi des travaux, accompagnement financement…)
+Une aventure familiale qui voit le jour en 2003, par la création de l’agence SEJIMMO, Place de Gaulle à Cagnes sur Mer par Jessie et ses Parents. En 2016 ils sont sélectionnés par le réseau Stéphane Plaza immobilier pour continuer l’aventure sous la marque de franchise.
+Jessie continue l’aventure avec son équipe, avec l’ouverture en 2019 de sa 2ème agence Stéphane Plaza, Place du Grand Jardin à Vence. Vivant à Vence depuis 2005 ce projet lui tenait à cœur ! Une meilleure façon encore de rester plus proche des clients.
 
-        <div class="row">
-            <div class="col-1-of-2">
-                <h3 class="sousTitreAbout">Our Games</h3>
-                <p class="paragraphe">
-                </p> - Our Game last more than 20 minutes !
-                </p>  - We daily upload !
-                </p>- They Have Male, Trans, Female Morph ! 
-                </p>- We already have almost 30 players online in our games !
-                </p>- Max Players is 100 !
-                </p>- And we almost always have staff to follow the games !
-                </p>
-                <h3 class="sousTitreAbout">Game Pass, Moderation, Udapte</h3>
-                <p class="paragraphe">
-                </p> - We have friendly and always at your service staff !
-                </p> - We Make new map every month !
-                </p>- We have cheap very gamepass !
+ou n&#039;hésitez pas à nous contacter par téléphone au 04 93 22 50 70 ou à consulter nos sites internet
+cagnes.stephaneplazaimmobilier.com
+vence.stephaneplazaimmobilier.com</p>
+                    <a href="#" class="readmore" data-target="agency-description">Voir plus</a>
+                                    <div class="links">
+                                          <span class="location">
+                                                  195 Place du Grand Jardin
+                                                                           Vence
+                                                                           06140
+                                              </span>
+                                                              <a href="tel:0493225070">
+                        <span class="telephone">04 93 22 50 70</span>
+                      </a>
+                                      </div>
+                </div>
+                <div class="agency-info-right match">
+                  <p class="align-right uppercase">nos offres: 53 à vendre<br> 0 à louer</p>
+                  <div class="button-wrap">
+                                          <a href="https://media.immo-facile.com/segments/immo/catalog/images/manufacturers_bareme/256628.pdf" class="button" onclick="effilab.put('send', 'display_phone');" target="_blank">Voir la grille des honoraires</a>
+                                                              <a onclick="effilab.put('send', 'contact_form');" href="https://vence.stephaneplazaimmobilier.com/immobilier-acheter?target=all" class="button">Consulter nos annonces</a>
+                      <a onclick="effilab.put('send', 'display_map');" class="button" href="https://vence.stephaneplazaimmobilier.com">Consulter notre site</a>
+                                      </div>
+                </div>
+                <div class="agency-info-left mobile-blk">
+                  <img src="https://transaction.stephaneplazaimmobilier.com/segments/immo/catalog/images/manufacturers/256628.jpg" alt="Stéphane Plaza Immobilier Vence">
+                  <a href="#fees" class="button grey">Voir les horaires de l&#039;agence</a>
+                </div>
+              </div>
+                          </div>
+            <div class="vos-contacts">
+    <h4>vos contacts</h4>
+    <div class="grid-container">
+                <div class="grid-item match">
+                        
+              <div class="img" style="background-image: url('https://media.immo-facile.com/office10/plaza_125720_113336_126452/catalog/images/members/603634.jpg')"></div>
+                        <div class="grid-info">
+                <div class="title">
+                    Sandrine KLEIN
+                                          <span class="desgi">Agent commercial</span>
+                                              <span>RSAC: 419772801 - ANTIBES</span>
+                                                          </div>
+                <div class="contact">
                     
-                </p
-            </div>
-            <div class="col-1-of-2">
-                <div class="composition">
-                    <img src="ressources/3imgs1.jpg" alt="photo barbier 1" class="composition_photo composition_photo--1">
-                    <img src="ressources/3imgs2.jpeg" alt="photo barbier 2" class="composition_photo composition_photo--2">
-                    <img src="ressources/3imgs3.jpg" alt="photo barbier 3" class="composition_photo composition_photo--3">
+                                        <el-tooltip placement="top">
+                      <div slot="content">0614716032</div>
+                      <a onclick="effilab.put('send', 'display_phone');" href="tel:0614716032"><img src="/images/mobile-circle.svg" alt=""></a>
+                    </el-tooltip>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Section Tarifs -->
-
-    <section id="tarifs">
-
-
-        <h2>Our Values</h2>
-
-        <div id="containerFlex">
-
-            <div class="flexCards">
-                <div class="head">
-                    <p>Mod</p>
-                </div>
-                <div class="contenu">Mod In Game (HD Admin)</div>
-                <div class="contenu">Mod Role (In Our Server)</div>
-                <div class="contenu">Acces to Admin Chat</div>
-                <div class="contenu">(Coming Soon) acces to private games</div>
-                <div class="prix">
-                    <p>70 R$</p>
+                <div class="grid-item match">
+                        
+              <div class="img" style="background-image: url('https://media.immo-facile.com/office10/plaza_125720_113336_126452/catalog/images/members/634506.jpg')"></div>
+                        <div class="grid-info">
+                <div class="title">
+                    Frédéric SAVIN
+                                          <span class="desgi">Agent commercial</span>
+                                              <span>RSAC: 320160245 - GRASSE</span>
+                                                          </div>
+                <div class="contact">
+                    
+                                        <el-tooltip placement="top">
+                      <div slot="content">0493225070</div>
+                      <a onclick="effilab.put('send', 'display_phone');" href="tel:0493225070"><img src="/images/mobile-circle.svg" alt=""></a>
+                    </el-tooltip>
                 </div>
             </div>
-            <div class="flexCards">
-                <div class="head">
-                    <p>Admin</p>
-                </div>
-                <div class="contenu">Admin In Game (HD Admin)</div>
-                <div class="contenu">Admin Role (In Our Server)</div>
-                <div class="contenu">Acces to Admin Chat</div>
-                <div class="contenu">(Coming Soon) acces to private games</div>
-                <div class="prix">
-                    <p>150 R$</p>
-                </div>
-            </div>
-            <div class="flexCards">
-                <div class="head">
-                    <p>UTG</p>
-                </div>
-                <div class="contenu">UTG in game</div>
-                <div class="contenu">UTG Role (In Our Server)</div>
-                <div class="contenu">Acces to Admin Chat</div>
-                <div class="contenu">(Coming Soon) acces to private games</div>
-                <div class="prix">
-                    <p>500 R$</p>
+        </div>
+                <div class="grid-item match">
+                        
+              <div class="img" style="background-image: url('https://media.immo-facile.com/office10/plaza_125720_113336_126452/catalog/images/members/647329.jpg')"></div>
+                        <div class="grid-info">
+                <div class="title">
+                    LINDA KAHIA
+                                          <span class="desgi">Agent commercial</span>
+                                              <span>RSAC: 812985364 - GRASSE</span>
+                                                          </div>
+                <div class="contact">
+                    
+                                        <el-tooltip placement="top">
+                      <div slot="content">0493225070</div>
+                      <a onclick="effilab.put('send', 'display_phone');" href="tel:0493225070"><img src="/images/mobile-circle.svg" alt=""></a>
+                    </el-tooltip>
                 </div>
             </div>
+        </div>
+                <div class="grid-item match">
+                        
+              <div class="img" style="background-image: url('https://media.immo-facile.com/office10/plaza_125720_113336_126452/catalog/images/members/704868.jpg')"></div>
+                        <div class="grid-info">
+                <div class="title">
+                    Vincent CAMBOUNET
+                                          <span class="desgi">Agent commercial</span>
+                                              <span>RSAC: 892449380 - ANTIBES</span>
+                                                          </div>
+                <div class="contact">
+                    
+                                        <el-tooltip placement="top">
+                      <div slot="content"><app-obfuscation data="vcamboune&lt;span class=&quot;obfuscated&quot;&gt;dXN4&lt;/span&gt;t@stephaneplazaim&lt;span class=&quot;obfuscated&quot;&gt;1HWO&lt;/span&gt;mobilier.com" v-bind:html="true" /></div>
+                      <app-obfuscate-email email="vcambounet@stephaneplazaimmobilier.com" rel="noopener noreferrer"><img src="/images/message-circle.svg" alt="email"></app-obfuscate-email>
+                    </el-tooltip>
+                                        <el-tooltip placement="top">
+                      <div slot="content">0493225070</div>
+                      <a onclick="effilab.put('send', 'display_phone');" href="tel:0493225070"><img src="/images/mobile-circle.svg" alt=""></a>
+                    </el-tooltip>
+                </div>
+            </div>
+        </div>
+                <div class="grid-item match">
+                        
+              <div class="img" style="background-image: url('https://media.immo-facile.com/office10/plaza_125720_113336_126452/catalog/images/members/710044.jpg')"></div>
+                        <div class="grid-info">
+                <div class="title">
+                    Jéremy SIMPSON
+                                          <span class="desgi">Agent commercial</span>
+                                              <span>RSAC: 79426042200017 - GRASSE</span>
+                                                          </div>
+                <div class="contact">
+                    
+                                        <el-tooltip placement="top">
+                      <div slot="content"><app-obfuscation data="jsimp&lt;span class=&quot;obfuscated&quot;&gt;6p0r&lt;/span&gt;son@stephaneplazaimmobi&lt;span class=&quot;obfuscated&quot;&gt;7E9e&lt;/span&gt;lier.com" v-bind:html="true" /></div>
+                      <app-obfuscate-email email="jsimpson@stephaneplazaimmobilier.com" rel="noopener noreferrer"><img src="/images/message-circle.svg" alt="email"></app-obfuscate-email>
+                    </el-tooltip>
+                                        <el-tooltip placement="top">
+                      <div slot="content">0493225070</div>
+                      <a onclick="effilab.put('send', 'display_phone');" href="tel:0493225070"><img src="/images/mobile-circle.svg" alt=""></a>
+                    </el-tooltip>
+                </div>
+            </div>
+        </div>
+                <div class="grid-item match">
+                          <div class="img" style="background-image: url('https://media.immo-facile.com/office10/plaza_115119_121093/catalog/images/members/349365.jpg')"></div>
+                        <div class="grid-info">
+                <div class="title">
+                    Stéphane BOUJON
+                                          <span class="desgi">Agent commercial</span>
+                                              <span>RSAC: 499850378 - ANTIBES</span>
+                                                          </div>
+                <div class="contact">
+                    
+                                        <el-tooltip placement="top">
+                      <div slot="content">0493225070</div>
+                      <a onclick="effilab.put('send', 'display_phone');" href="tel:0493225070"><img src="/images/mobile-circle.svg" alt=""></a>
+                    </el-tooltip>
+                </div>
+            </div>
+        </div>
+                <div class="grid-item match">
+                          <div class="img" style="background-image: url('https://media.immo-facile.com/office10/plaza_115119_121093/catalog/images/members/349365.jpg')"></div>
+                        <div class="grid-info">
+                <div class="title">
+                     
+                                          <span class="desgi">Assistante commerciale</span>
+                                                          </div>
+                <div class="contact">
+                    
+                                        <el-tooltip placement="top">
+                      <div slot="content">0493225070</div>
+                      <a onclick="effilab.put('send', 'display_phone');" href="tel:0493225070"><img src="/images/mobile-circle.svg" alt=""></a>
+                    </el-tooltip>
+                </div>
+            </div>
+        </div>
+            </div>
+</div>
+            <div class="related_rooms_agencies">
+              <div class="container">
+                <h4>Consultez nos nouveautés</h4>
+                <div class="nos-biens">
+                    <app-agency-products agency-id="390"></app-agency-products>
+                </div>
+              </div>
+            </div>
+            <div class="agency-social">
+              <div class="agency-social-left">
+                                  <div class="social-content">
+                    <h4>partagez notre agence sur</h4>
+                                          <a href="https://www.facebook.com/stephaneplazaimmobiliercagnes/" target="_blank" rel="noopener noreferrer"><img src="/images/social/fb.svg"></a>
+                    
+                    
+                    
+                    
+                                          <a href="https://www.instagram.com/stephaneplazaimmobiliercagnes" target="_blank" rel="noopener noreferrer"><img src="/images/social/instagram.svg"></a>
+                    
+                                          <a href="https://www.youtube.com/channel/UCMxUIO9YHBixRWMePEAE9Xw" target="_blank" rel="noopener noreferrer"><img src="/images/social/tv.svg"></a>
+                                      </div>
+                                <div id="fees" class="working-hours">
+                  <h4>horaires</h4>
+                  <div class="working-hours-wrap">
+                      <p>Du lundi au vendredi de 9H à 18H30
+samedi de 9H à 13H00</p>
+                      <p>Lundi au Vendredi de 9h à 18h30  Samedi de 09H00 à 13H00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="agency-social-right">
+                  <h4>accessibilité</h4>
+                  <app-agency-gmap lat="43.72214577019927" lng="7.1113059983840685" address="195 Place du Grand Jardin 06140 Vence"></app-agency-gmap>
+              </div>
+            </div>
+            <div id="agency-legal-notice" class="modal show css">
+              <a class="cancel" href="#"></a>
+              <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title underlined">Mentions légales</h3>
+                    <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                      <i class="el-dialog__close el-icon el-icon-close"></i>
+                    </a>
+                  </div>
+                  <div class="modal-body">
+                    <p><br> Raison sociale : SARLU SEJIMMO<br> Adresse siège social : 8 place du Général de Gaulle - 06800 Cagnes sur mer<br> SIRET : Antibes<br> RCS : 449682996<br> Numero TVA Intracommunautaire : FR 00489835058<br> Forme juridique : SARLU<br> Capital social : 3768,75  €<br> Assurance RCP : SOCAF<br> <br> Carte T : CPI 06052016 000 006 113 / CCI de France<br> Date de délivrance : 10/04/2019<br> Lieu de délivrance :  <br> Caisse de garantie financière : SOCAF<br> N° de caisse de garantie : adhérent 23059<br> Adresse caisse de garantie : 26 Avenue de Suffren - 75015 PARIS<br> Montant de la garantie financière : 110000 €<br> <br> Commerçant juridiquement et financièrement indépendant membre du réseau Stéphane Plaza Immobilier<br> <br> Directeur de la publication : Jessie Cohen Jessie<br> <br> <u>Médiation</u><br> En cas de différend avec la société SARLU SEJIMMO, vous avez la possibilité de saisir le Médiateur :<br> Nom du médiateur : Service de Médiation de la consommation : MEDIATION- VIVONS MIEUX ENSEMBLE -<br> Adresse du médiateur : NC<br> Adresse du site : <a href="https://www.mediation-vivons-mieux-ensemble.fr" rel="nofollow">https://www.mediation-vivons-mieux-ensemble.fr</a><br> Date obtention du label : 15/05/2019</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="contact" class="estimation-banner-pink" style="background-image: url('/images/nos-pink-bg.jpg');">
+            <div class="content-wrap">
+                <h2>contactez-nous</h2>
+                                  <p>VOUS SOUHAITEZ NOUS PARLER DE VOTRE PROJET IMMOBILIER ?<br>NOUS N'HÉSITERONS PAS À VOUS RAPPELER.</p>
+                            </div>
+        </div>
+        <div class="agency-form">
+                        <form id="contact-agency" action="/agency/contact/390" method="post">
+                                                            <input type="hidden" name="_token" value="85HZe47Gp8wlqApuJ5QvEPC2jccol83kd9ABdJU3">
 
-
-
-    </section>
-
-    <!-- Sections Phrases Slide -->
-
-    <section id="phrasesSlide">
-
-        <div class="cadre">
-
-            <div class="centre">
-
-                <div class="carousel">
-
-                    <div class="changeHidden">
-
-                        <div class="contenant">
-
-                            <div class="element">Daily Upload</div>
-                            <div class="element">Chat Bypass !</div>
-                            <div class="element">+2k Members</div>
-                            <div class="element">Always at your service</div>
-                            <div class="element">Daily Upload</div>
-
+                <input type="hidden" name="selectedProduct" value="" />
+                <div class="contact-form-top">
+                    <div class="form-fields">
+                        <div class="field">
+                            <input required type="text" value="" v-validate="'required|regex:^[A-Za-zÀ-ÿ -]+$'" data-vv-validate-on="change|blur" name="lastName" data-vv-as="Nom" placeholder="Nom *" class="icon form-tag">
+                            <span class="error relative">{{ errors.first('lastName') }}</span>
                         </div>
-
+                        <div class="field">
+                            <input required type="text" value="" v-validate="'required|regex:^[A-Za-zÀ-ÿ -]+$'" data-vv-validate-on="change|blur" name="firstName" data-vv-as="Prénom" placeholder="Prénom *" class="icon form-tag">
+                            <span class="error relative">{{ errors.first('firstName') }}</span>
+                        </div>
+                        <div class="field">
+                            <input required type="tel" value="" v-validate="'required|numeric'" data-vv-validate-on="change|blur" name="phone" data-vv-as="Téléphone" placeholder="Téléphone *" class="icon form-phone">
+                            <span class="error relative">{{ errors.first('phone') }}</span>
+                        </div>
+                        <div class="field">
+                            <input required type="email" value="" v-validate="'required|email'" data-vv-validate-on="change|blur" data-vv-as="Adresse email" name="email" placeholder="Adresse email *" class="icon form-email">
+                            <span class="error relative">{{ errors.first('email') }}</span>
+                        </div>
                     </div>
-
+                    <div class="message-wrap">
+                        <div class="message">
+                            <textarea type="text" v-validate="'required'" data-vv-validate-on="change|blur" data-vv-as="Message" name="message" placeholder="Message *" class="icon form-email"></textarea>
+                        </div>
+                        <span class="error relative">{{ errors.first('message') }}</span>
+                    </div>
                 </div>
-
-            </div>
-
+                <div class="contact-form-bottom">
+                    <div class="agency-check">
+                        <div class="checkbox">
+                            <input type="checkbox" name="consent" value="1"  data-vv-validate-on="change" data-vv-as="J’accepte de recevoir les lettres d’information de la société Stéphane Plaza France et des agences franchisées. À tout moment, vous pourrez utiliser le lien de désabonnement intégré aux courriers électroniques qui vous seront envoyés.">
+                                                            <label for="consent">J’accepte de recevoir les lettres d’information de la société Stéphane Plaza France et des agences franchisées. À tout moment, vous pourrez utiliser le lien de désabonnement intégré aux courriers électroniques qui vous seront envoyés.</label>
+                                                        <span class="error relative">{{ errors.first('consent') }}</span>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="partenaires" value="1" data-vv-validate-on="change" data-vv-as="J’accepte que mes informations personnelles soient communiquées aux partenaires professionnels de la finance et de l’assurance de la société Stéphane Plaza France et des agences franchisées travaillant dans le domaine de l’immobilier, afin de leur permettre de m’envoyer des offres en lien avec mes critères de recherche (location, achat, vente, acquisition et gérance de biens immobiliers), et ce par email et par téléphone.">
+                                                            <label for="partenaires">J’accepte que mes informations personnelles soient communiquées aux partenaires professionnels de la finance et de l’assurance de la société Stéphane Plaza France et des agences franchisées travaillant dans le domaine de l’immobilier, afin de leur permettre de m’envoyer des offres en lien avec mes critères de recherche (location, achat, vente, acquisition et gérance de biens immobiliers), et ce par email et par téléphone.</label>
+                                                    </div>
+                        <div class="checkbox">
+                          <input type="checkbox" name="notrobot">
+                          <label for="notrobot">Je confirme ne pas être un robot</label>
+                          <span class="error inherit" id="notrobot-error" style="display:none;">obligatoire</span>
+                        </div>
+                        
+                        <!-- HONEYPOT -->
+                        <app-honeypot source="AgencyContactForm"></app-honeypot>
+                    </div>
+                    <div class="contact-button-wrap">
+                        <input value="Valider" id="contact-submit-btn" type="submit" onclick="effilab.put('send', 'buy_product');" >
+                    </div>
+                </div>
+            </form>
         </div>
+    </div>
+    </div>
+</section>
+<section class="infosection mobile-white">
+  <div class="content-text info">
+    <div class="container">
+                <p>Les informations recueillies à partir de ce formulaire et précédées d’un astérisque sont nécessaires à la gestion de votre demande par l&#039;agence franchisée concernée par le bien identifié ou de votre mise en relation avec l&#039;agence franchisée présélectionnée.</p>
+          <p>En remplissant le formulaire, j&#039;accepte que mes Données Personnelles soient traitées dans les conditions prévues à la Politique de Confidentialité, afin que ma demande soit prise en charge par la société Stéphane Plaza France et les agences franchisées. La Politique de Confidentialité comporte des informations sur la gestion de vos données personnelles et de vos droits.  <a href="https://infos.stephaneplazaimmobilier.com/politique-de-confidentialite/">Données personnelles</a></p>
+            <p>Si vous ne souhaitez pas faire l’objet de prospection commerciale par voie téléphonique, vous pouvez vous inscrire gratuitement sur la liste d’opposition au démarchage téléphonique prévue à l’article L223-1 du Code de la consommation, sur le site internet <a href="http://www.bloctel.gouv.fr">www.bloctel.gouv.fr</a> ou par courrier adressé à : Société Opposetel – Service Bloctel - 92 boulevard Victor Hugo - 92110 CLICHY.</p>
+    </div>
+  </div>
+</section>
+              </div>
+             <!-- <app-message-cookie></app-message-cookie> -->
+          </div>
+      </div>
 
-    </section>
-
-
-    <!-- Section Équipe -->
-
-    <section id="equipe">
-
-        <h3>Our Team</h3>
-        <p>Important Person</p>
-
-        <div class="containerFlexTeam">
-
-            <div class="team">
-                <div class="teamPic pic1"></div>
-                <div class="sousTxt">
-                    <h4>Nolannn#0001</h4>
-                    <p>Founder</p>
-                </div>
-            </div>
-
-            <div class="team">
-                <div class="teamPic pic2"></div>
-                <div class="sousTxt">
-                    <h4>1mp0ster#5191</h4>
-                    <p>Owner</p>
-                </div>
-            </div>
-
-            <div class="team">
-                <div class="teamPic pic3"></div>
-                <div class="sousTxt">
-                    <h4>MrBons#7851</h4>
-                    <p>Co Owner</p>
-                </div>
-            </div>
-
-
+      
+      
+               <footer class="site-footer">
+    <div class="footer-top">
+        <div class="footer-logo">
+            <a href="/">
+                <img src="/images/footerimg.svg" alt="Accueil">
+            </a>
         </div>
-
-    </section>
-
-
-    <!-- Contact Section -->
-
-    <section id="contact">
-
-        <h2>Help ?</h2>
-        <h3>discord.gg/firecondo</h3>
-
-        <div class="flexMedias">
-
-            <div class="medias">
-                <a href="https://www.instagram.com/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
+        
+        <div class="footer-menu">
+            <div class="column-menu">
+                <div class="widget-menu">
+                    <h3 class="uppercase">Acheter</h3>
+                    <ul>
+                        <li>
+                            <a href="/#search" rel="nofollow">Rechercher</a>
+                        </li>
+                        <li>
+                            <a href="/immobilier-acheter/?target=buy">Acheter</a>
+                        </li>
+                        <li>
+                            <a href="/immobilier-acheter/?target=rent">Louer</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="widget-menu">
+                    <h3 class="uppercase">Vendre</h3>
+                    <ul>
+                        <li>
+                            <a href="/estimer-son-bien">Estimez votre bien</a>
+                        </li>
+                        <li>
+                            <a href="/l-offre-de-homestaging">L&#039;offre de Homestaging</a>
+                        </li>
+                                            </ul>
+                </div>
+                
+                <div class="widget-menu">
+                    <h3 class="uppercase">Ma vision</h3>
+                    <ul>
+                        <li>
+                            <a href="https://infos.stephaneplazaimmobilier.com/ma-vision/">Ma vision</a>
+                        </li>
+                        
+                                                <li>
+                            <a href="https://infos.stephaneplazaimmobilier.com/articles/le-nouveau-mandat/">Le mandat Stéphane Plaza Immobilier</a>
+                        </li>
+                                            </ul>
+                </div>
             </div>
-
-            <div class="medias">
-                <a href="https://www.twitter.com/" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
+            <div class="column-menu">
+                
+                
+                                <div class="widget-menu">
+                    <h3 class="uppercase">Agences</h3>
+                    <ul>
+                        <li>
+                            <a href="/agences-immobilieres">Trouver une agence</a>
+                        </li>
+                    </ul>
+                </div>
+                                
+                
+                                
+                                
+                <div class="widget-menu">
+                    <h3 class="uppercase">Rejoignez-nous</h3>
+                    <ul>
+                        <li>
+                            <a href="https://recrutement.stephaneplazaimmobilier.com/">Rejoignez-nous</a>
+                        </li>
+                    </ul>
+                </div>
+                                
+                                    <div class="widget-menu">
+                        <h3 class="uppercase">Gérance</h3>
+                        <ul>
+                            <li>
+                                <a href="/gerer-sa-location">Gestion Locative</a>
+                            </li>
+                        </ul>
+                    </div>
+                                
+                
+                                <div class="widget-menu">
+                    <h3 class="uppercase">Conseils de Stéphane</h3>
+                    <ul>
+                        <li>
+                            <a href="https://infos.stephaneplazaimmobilier.com/breves/">Brèves</a>
+                        </li>
+                        <li>
+                            <a href="https://infos.stephaneplazaimmobilier.com/articles/">Articles</a>
+                        </li>
+                    </ul>
+                </div>
+                            </div>
+            <div class="column-menu">
+                
+                <div class="widget-menu">
+                    <h3 class="uppercase">Annonces par département</h3>
+                    <ul>
+                      <li><a href="bien-immobilier/departement/13-bouches-du-rhone">Immobilier Bouches-du-Rhône</a></li><li><a href="bien-immobilier/departement/75-paris">Immobilier Paris</a></li><li><a href="bien-immobilier/departement/92-hauts-de-seine">Immobilier Hauts-de-Seine</a></li><li><a href="bien-immobilier/departement/78-yvelines">Immobilier Yvelines</a></li><li><a href="bien-immobilier/departement/33-gironde">Immobilier Gironde</a></li><li><a href="bien-immobilier/departement/95-val-doise">Immobilier Val-d'Oise</a></li><li><a href="bien-immobilier/departement/06-alpes-maritimes">Immobilier Alpes-Maritimes</a></li><li><a href="bien-immobilier/departement/77-seine-et-marne">Immobilier Seine-et-Marne</a></li><li><a href="bien-immobilier/departement/93-seine-saint-denis">Immobilier Seine-Saint-Denis</a></li><li><a href="bien-immobilier/departement/31-haute-garonne">Immobilier Haute-Garonne</a></li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="medias">
-                <a href="https://www.behance.net/" target="_blank">
-                    <i class="fab fa-behance"></i>
-                </a>
+            <div class="column-menu">
+                
+                <div class="widget-menu">
+                    <h3 class="uppercase">Annonces par ville</h3>
+                    <ul>
+                      <li><a href="bien-immobilier/ville/31555-toulouse">Immobilier Toulouse</a></li><li><a href="bien-immobilier/ville/33063-bordeaux">Immobilier Bordeaux</a></li><li><a href="bien-immobilier/ville/34172-montpellier">Immobilier Montpellier</a></li><li><a href="bien-immobilier/ville/44109-nantes">Immobilier Nantes</a></li><li><a href="bien-immobilier/ville/75119-paris-19">Immobilier Paris 19</a></li><li><a href="bien-immobilier/ville/06088-nice">Immobilier Nice</a></li><li><a href="bien-immobilier/ville/41269-vendome">Immobilier Vendôme</a></li><li><a href="bien-immobilier/ville/06029-cannes">Immobilier Cannes</a></li><li><a href="bien-immobilier/ville/75118-paris-18">Immobilier Paris 18</a></li><li><a href="bien-immobilier/ville/75115-paris-15">Immobilier Paris 15</a></li><li><a href="bien-immobilier/ville/21231-dijon">Immobilier Dijon</a></li><li><a href="bien-immobilier/ville/31555-bonnefoy">Immobilier Bonnefoy</a></li><li><a href="bien-immobilier/ville/31555-cote-pavee">Immobilier Côte Pavée</a></li><li><a href="bien-immobilier/ville/64422-oloron-sainte-marie">Immobilier Oloron-Sainte-Marie</a></li><li><a href="bien-immobilier/ville/13206-marseille-6">Immobilier Marseille 6</a></li><li><a href="bien-immobilier/ville/03185-montlucon">Immobilier Montluçon</a></li><li><a href="bien-immobilier/ville/83137-toulon">Immobilier Toulon</a></li><li><a href="bien-immobilier/ville/75113-paris-13">Immobilier Paris 13</a></li><li><a href="bien-immobilier/ville/13213-marseille-13">Immobilier Marseille 13</a></li><li><a href="bien-immobilier/ville/92023-clamart">Immobilier Clamart</a></li>
+                    </ul>
+                </div>
             </div>
-
-
         </div>
+    </div>
+    <div class="footer-bottom">
+        
+        <div class="copyright">
+  <a href="/" rel="nofollow"><i class="far fa-copyright"></i> Stéphane Plaza Immobilier</a>
+</div>
+<div class="flags">
+      <a href="https://www.stephaneplazaimmobilier.com/en/real-estate-agencies/256628/stephane-plaza-immobilier-vence">
+      <img src="/images/flag1.svg" alt="">
+    </a>
+        <a href="/agences-immobilieres/256628/stephane-plaza-immobilier-vence">
+      <img src="/images/flag2.svg" alt="">
+    </a>
+  </div>
+<div class="footer-menu">
+  <ul>
+    <li>
+      <a href="https://infos.stephaneplazaimmobilier.com/nos-medias">Campagne TV</a>
+    </li>
+    <li>
+      <a href="/contact">Contact</a>
+    </li>
+    <li>
+      <a href="https://infos.stephaneplazaimmobilier.com/relations-presse/" target="_blank" rel="noopener noreferrer">Relations Presse</a>
+    </li>
+    <li>
+      <a href="/plan-du-site">Plan du site</a>
+    </li>
+    <li>
+              <a href="https://infos.stephaneplazaimmobilier.com/politique-de-confidentialite/" target="_blank" rel="noopener noreferrer">Données personnelles</a>
+          </li>
+    <li>
+              <a href="https://infos.stephaneplazaimmobilier.com/politique-de-cookies/" target="_blank" rel="noopener noreferrer">Cookies</a>
+          </li>
+    <li>
+              <a href="https://infos.stephaneplazaimmobilier.com/informations-legales/" target="_blank" rel="noopener noreferrer">Mentions légales</a>
+          </li>
+
+      </ul>
+</div>
+    </div>
+
+</footer>
+        </div>
+  <!-- 
+  <script type="text/javascript" defer>
+      var d=document, g=d.getElementsByTagName('link')[0];
+
+      // Element-UI
+      var e2=d.createElement('link');
+      e2.rel='stylesheet';e2.type='text/css'; e2.href='https://unpkg.com/element-ui/lib/theme-chalk/index.css'; g.parentNode.insertBefore(e2,g);
+
+  </script> -->
+
+  <script src="/js/app.js?id=616cf1a3ddedbd3f381d" defer></script>
+  <!-- Cookies management via tarteaucitron -->
+  <script type="text/javascript">
+    tarteaucitron.init({
+                "privacyUrl": "https://infos.stephaneplazaimmobilier.com/politique-de-cookies/", /* Privacy policy url */
+                "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+        "cookieName": "tarteaucitron", /* Cookie name */
+        "orientation": "top", /* Banner position (top - bottom) */
+        "showAlertSmall": true, /* Show the small banner on bottom right */
+        "cookieslist": false, /* Show the cookie list */
+        "closePopup": false, /* Show a close X on the banner */
+        "showIcon": false, /* Show cookie icon to manage cookies */
+        "iconPosition": "BottomRight", /* BottomRight, BottomLeft, TopRight and TopLeft */
+        "adblocker": false, /* Show a Warning if an adblocker is detected */
+        "DenyAllCta" : true, /* Show the deny all button */
+        "AcceptAllCta" : true, /* Show the accept all button when highPrivacy on */
+        "highPrivacy": true, /* HIGHLY RECOMMANDED Disable auto consent */
+        "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+
+        "removeCredit": true, /* Remove credit link */
+        "moreInfoLink": true, /* Show more info link */
+        "useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
+        "useExternalJs": false, /* If false, the tarteaucitron.js file will be loaded */
+
+        //"readmoreLink": "/cookiespolicy", /* Change the default readmore link */
+                "cookieDomain": "www.stephaneplazaimmobilier.com", /* Shared cookie for multisite */
+        "readmoreLink": "https://infos.stephaneplazaimmobilier.com/politique-de-cookies/", /* Privacy policy url */
+                "mandatory": true, /* Show a message about mandatory cookies */
+    });
+</script>
+<script type="text/javascript">
+            tarteaucitron.user.googletagmanagerId = 'GTM-54RP78'; // Id service
+        (tarteaucitron.job = tarteaucitron.job || []).push('googletagmanager');
+        
+        tarteaucitron.user.clarity = '52752rvi5t';
+        (tarteaucitron.job = tarteaucitron.job || []).push('clarity'); 
+    
+            tarteaucitron.user.gtagUa = 'UA-57103942-4'; // Id service
+        tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
+        (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
+        
+    (tarteaucitron.job = tarteaucitron.job || []).push('facebook');
+
+    
+    tarteaucitron.user.facebookpixelId = '985775354895442'; tarteaucitron.user.facebookpixelMore = function () { /* add here your optionnal facebook pixel function */ };
+    (tarteaucitron.job = tarteaucitron.job || []).push('facebookpixel');
+
+    (tarteaucitron.job = tarteaucitron.job || []).push('twitter');
+
+    tarteaucitron.user.mauticurl = 'https://mautic.spftech.net/mtc.js';
+    (tarteaucitron.job = tarteaucitron.job || []).push('mautic');
+
+</script>
 
 
-    </section>
 
-
-    <script src="JS/app.js"></script>
-    <script src="JS/greenSock.js"></script>
-</body>
-
+  </body>
 </html>
