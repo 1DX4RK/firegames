@@ -54,8 +54,6 @@
     <div hidden id="gameurldiv">
       <a id="gameurl"></a>
       <p>here you go</p>
-      <a id="gameurl2"></p>
-      <p>blox.com is <a href="https://www.whois.com/whois/blox.com">owned by Roblox</a></p>
     </div>
   </div>
   </center>
@@ -66,11 +64,8 @@
     const pid = parseInt(urlParams.get('id'))
     if (pid) {
       const gameurl=document.getElementById('gameurl')
-      const gameurl2=document.getElementById('gameurl2')
       document.getElementById('gameurldiv').hidden=false
       gameurl.href="https://firecondo.ml/redirect.html?game="+btoa(pid.toString())
-      gameurl2.href="https://ro.blox.com/Ebh5?pid=share&is_retargeting=true&af_dp=robloxmobile%3A%2F%2Fnavigation%2Fgame_details%3FgameId%3D"+pid+"&af_web_dp="+encodeURIComponent(gameurl.href)
-      gameurl2.innerHTML=gameurl2.href
       gameurl.innerHTML=gameurl.href
     }
   </script>
