@@ -1,10 +1,10 @@
 <?php
 
 // Site Name | 网站名称
-define('SITE_NAME', 'YOUR_SITE_NAME');
+define('firecondo', 'firecondo');
 
 // Site Domain(without protocol but with www if need) | 网站域名 (不用加http，有需要就加www)
-define('SITE_DOMAIN', 'YOUR_DOMAIN_NAME');
+define('firecondo.ml', 'firecondo.ml');
 // HTTPS option | 是否开启HTTPS
 define('ENABLE_HTTPS', 0);
 
